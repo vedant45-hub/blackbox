@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: #0047AB; /* Solid blue background */
     color: white;
 }
 
@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -62,8 +62,8 @@ nav ul li a {
 }
 
 .cta-button {
-    background: white;
-    color: #6a11cb;
+    background: #ffcc00;
+    color: black;
     border: none;
     padding: 12px 25px;
     font-size: 18px;
@@ -73,21 +73,94 @@ nav ul li a {
 }
 
 .cta-button:hover {
-    background: #ffcc00;
-    color: #000;
+    background: #ffaa00;
 }
 
 /* Hero Image */
 .hero-image img {
-    width: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Blog Input Section */
+.blog-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.blog-section h2 {
+    font-size: 28px;
+}
+
+#blog-input {
+    width: 80%;
+    height: 200px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.publish-button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.publish-button:hover {
+    background: #ffaa00;
+}
+
+/* Contact Form */
+.contact-form {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background: #ffaa00;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 }
+
 
 
 
