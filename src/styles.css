@@ -44,7 +44,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 80px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero-content {
@@ -155,6 +155,7 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2);
 }
+
 
 
 
