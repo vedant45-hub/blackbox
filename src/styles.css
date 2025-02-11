@@ -78,7 +78,7 @@ nav ul li a {
 
 /* Hero Image */
 .hero-image img {
-    width: 350px;
+    width: 400px;
     border-radius: 10px;
 }
 
@@ -92,9 +92,10 @@ nav ul li a {
     font-size: 28px;
 }
 
+/* Increased Blog Input Box Size */
 #blog-input {
-    width: 80%;
-    height: 200px;
+    width: 85%;
+    height: 300px; /* Increased height */
     padding: 15px;
     font-size: 16px;
     border: none;
@@ -160,6 +161,7 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2);
 }
+
 
 
 
