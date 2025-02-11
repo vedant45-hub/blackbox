@@ -3,56 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduBlog - Your Learning Hub</title>
+    <title>EduBlog - Learn & Grow</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
     <header>
-        <h1>EduBlog</h1>
-        <p>Your hub for educational content, updates, and announcements</p>
+        <div class="logo">📘 EduBlog</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <section class="hero">
+        <h1>Welcome to EduBlog</h1>
+        <p>Your hub for educational content, updates, and announcements.</p>
+    </section>
 
     <main>
-        <section class="blog-posts">
-            <article>
+        <section class="blog-container">
+            <article class="blog-post">
+                <img src="plm.jpg" alt="PLM">
                 <h2>Understanding Product Lifecycle Management</h2>
-                <p class="meta">Published on February 11, 2025 | by Admin</p>
-                <p>Product Lifecycle Management (PLM) is crucial for industries to streamline development...</p>
-                <a href="#">Read More</a>
+                <p>PLM is crucial for industries to streamline development...</p>
+                <button class="read-more">Read More</button>
             </article>
 
-            <article>
+            <article class="blog-post">
+                <img src="fuzzy.jpg" alt="Fuzzy Logic">
                 <h2>Introduction to Fuzzy Logic in Autonomous Vehicles</h2>
-                <p class="meta">Published on February 5, 2025 | by Admin</p>
-                <p>Fuzzy logic provides a way for autonomous cars to make intelligent decisions...</p>
-                <a href="#">Read More</a>
+                <p>Fuzzy logic allows autonomous cars to make smart decisions...</p>
+                <button class="read-more">Read More</button>
+            </article>
+
+            <article class="blog-post">
+                <img src="webapp.jpg" alt="Web Development">
+                <h2>Building a Student Portal Web Application</h2>
+                <p>Developing a PHP web app for managing student data...</p>
+                <button class="read-more">Read More</button>
             </article>
         </section>
-
-        <aside>
-            <h3>Latest Updates</h3>
-            <ul>
-                <li><a href="#">New PLM report released!</a></li>
-                <li><a href="#">Student portal web app now live</a></li>
-                <li><a href="#">MATLAB fuzzy controller project update</a></li>
-            </ul>
-        </aside>
     </main>
+
+    <aside class="updates">
+        <h3>Latest Updates</h3>
+        <ul>
+            <li><a href="#">New PLM Report Released!</a></li>
+            <li><a href="#">Student Portal Web App Now Live</a></li>
+            <li><a href="#">MATLAB Fuzzy Controller Project Update</a></li>
+        </ul>
+    </aside>
 
     <footer>
         <p>&copy; 2025 EduBlog | All Rights Reserved</p>
     </footer>
+
 </body>
 </html>
+
 
 
 
